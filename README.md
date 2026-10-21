@@ -40,10 +40,10 @@ The music analytics team has assigned me the first question to answer: How does 
 
 ### Data Source
 
-I will use the publicly available *Most Streamed Spotify Songs 2024* dataset. The dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data).
+I will use the publicly available *Most Streamed Artists on Spotify* dataset. The dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data).
 The data has been made available under this [License](https://creativecommons.org/licenses/by/4.0/).
 
-The dataset contains information about approximately 4,600 songs, including Spotify streaming counts, artist names, release dates, playlist metrics, and song characteristics. It also includes performance metrics from other music platforms, such as YouTube, TikTok, Apple Music, and Deezer. <Cite refs={["turn368619search0","turn368619search6"]}/>
+This dataset provides a granular breakdown of streaming metrics for the world's most popular musical artists on Spotify. As of July 2026, this data encapsulates the massive reach of artists across various genres, countries, and types (Solo vs. Group).
 
 This is publicly available, third-party data that can be used to explore streaming performance and music trends. However, it does not provide Spotify's confidential internal business data or individual users' listening histories. The dataset represents a selection of songs rather than every song on Spotify, so the findings may not represent the entire Spotify catalog or all listeners' preferences.
 
