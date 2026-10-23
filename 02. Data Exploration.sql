@@ -16,7 +16,7 @@ FROM combined_files
 
 -- checking total rows combined
 
-SELECT *                                                                  -- return 4658 rows in total
+SELECT COUNT(*)                                                                  -- return 4658 rows in total
 FROM combined_files
 
 -- checking for unique rows
