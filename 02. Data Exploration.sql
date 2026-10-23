@@ -34,24 +34,24 @@ FROM combined_files
 -- checking data type in each columns
 
 DECLARE @tsql NVARCHAR(MAX) = N'
-with combined_files as(
-select msa.Artist_Name,
-Primary_Genre,
-Artist_Type,
-sex,
-Country_of_Origin,
-Primary_Language,                                        -- all columns were nvarchar(50), except both below
-artist_followers,                                        -- float
-Total_Streams_in_millions,                               -- float
-album_total_tracks,
-album_release_date,
-solo_streams_in_millions as solo_streams,
-Collaborative_Streams_in_millions as collab_streams
-
-from Most_Streamed_Artists as msa
-left join track_data_final tdf
-on msa.Artist_Name=tdf.artist_name
+WITH combined_files AS(
+SELECT msa.Artist_Name,
+    Primary_Genre,
+    Artist_Type,
+    sex,
+    Country_of_Origin,
+    Primary_Language,                                        -- all columns were nvarchar(50), except both below
+    artist_followers,                                        -- float
+    Total_Streams_in_millions,                               -- float
+    album_total_tracks,
+    album_release_date,
+    solo_streams_in_millions AS solo_streams,
+    Collaborative_Streams_in_millions AS collab_streams
+FROM Most_Streamed_Artists AS msa
+LEFT JOIN track_data_final tdf
+    ON msa.Artist_Name = tdf.artist_name
 )
+    
 SELECT *
 FROM combined_files;
 ';
