@@ -30,3 +30,37 @@ SELECT COUNT(album_total_tracks) - COUNT(DISTINCT album_total_tracks) AS duplica
 COUNT(album_release_date) - COUNT(DISTINCT album_release_date) AS duplicate_released,         -- return 3314 duplicate rows
 COUNT(artist_followers) - COUNT(DISTINCT artist_followers) AS duplicate_followers             -- return 3616 duplicate rows
 FROM combined_files
+
+-- checking data type in each columns
+
+DECLARE @tsql NVARCHAR(MAX) = N'
+with combined_files as(
+select msa.Artist_Name,
+Primary_Genre,
+Artist_Type,
+sex,
+Country_of_Origin,
+Primary_Language,                                        -- all columns were nvarchar(50), except both below
+artist_followers,                                        -- float
+Total_Streams_in_millions,                               -- float
+album_total_tracks,
+album_release_date,
+solo_streams_in_millions as solo_streams,
+Collaborative_Streams_in_millions as collab_streams
+
+from Most_Streamed_Artists as msa
+left join track_data_final tdf
+on msa.Artist_Name=tdf.artist_name
+)
+SELECT *
+FROM combined_files;
+';
+
+SELECT
+    name AS column_name,
+    system_type_name AS data_type,
+    max_length,
+    precision,
+    scale
+FROM sys.dm_exec_describe_first_result_set(@tsql, NULL, 0)
+WHERE is_hidden = 0;
