@@ -14,7 +14,19 @@ COUNT(*) - COUNT(solo_streams) solo_streams,
 COUNT(*) - COUNT(collab_streams) collab_streams
 FROM combined_files
 
--- checking unique artist names
+-- checking total rows combined
+
+SELECT *                                                                  -- return 4658 rows in total
+FROM combined_files
+
+-- checking for unique rows
 
 SELECT COUNT(DISTINCT artist_name) AS unique_artist_names                 -- return 500 rows
+FROM combined_files
+
+-- checking for duplicate rows 
+
+SELECT COUNT(album_total_tracks) - COUNT(DISTINCT album_total_tracks) AS duplicate_tracks,    -- return 4452 duplicate rows
+COUNT(album_release_date) - COUNT(DISTINCT album_release_date) AS duplicate_released,         -- return 3314 duplicate rows
+COUNT(artist_followers) - COUNT(DISTINCT artist_followers) AS duplicate_followers             -- return 3616 duplicate rows
 FROM combined_files
