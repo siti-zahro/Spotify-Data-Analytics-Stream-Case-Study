@@ -40,7 +40,7 @@ The music analytics team has assigned me the first question to answer: How does 
 
 ### Data Source
 
-I will use the publicly available *Most Streamed Artists on Spotify* dataset. The dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data). And *Spotify Global Music Dataset (2009–2025)*, can be downloaded from [Kaggle](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025).
+I will use the publicly available datasets *1. Most Streamed Artists on Spotify* and *2. Spotify Global Music Dataset (2009–2025)*. The datasets can be downloaded from [Kaggle1](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data) and [Kaggle2](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025).
 The data has been made available under these [License1](https://creativecommons.org/licenses/by/4.0/) and [License2](https://creativecommons.org/publicdomain/zero/1.0/).
 
 This dataset provides a granular breakdown of streaming metrics for the world's most popular musical artists on Spotify. As of July 2026, this data encapsulates the massive reach of artists across various genres, countries, and types (Solo vs. Group).
