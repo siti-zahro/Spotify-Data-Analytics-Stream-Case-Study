@@ -55,48 +55,43 @@ Before conducting the analysis, I will inspect the dataset to identify missing v
 
 The cleaned dataset will then be used to investigate streaming performance across songs and artists, examine relationships between playlist presence and streaming counts, and explore trends by release date and other available song characteristics.
 
-## Process (STILL UNDER CONSTRUCTION)
+## Process (STILL UNDER CONSTRUCTION!)
 
 ### Combining the Data
 
 SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)
 
-The Spotify dataset is imported into SQL Server as a table named `spotify_data`. If the project uses multiple CSV files covering different periods or chart categories, these files will be imported separately and combined into a single table named `combined_spotify_data`, provided that their structures are compatible.
+The Spotify datasets are imported into SQL Server as a table named `Most_Streamed_Artists` and `track_data_final`. Another table named "combined_files" is created, containing 4,658 rows of data for year 2009-2026, provided that their structures are compatible.
 
 The combined table will serve as the primary dataset for the analysis, allowing me to examine song performance, compare artists, and identify streaming trends across the available records.
-
-If the project uses a single CSV file, the data will be imported directly into `spotify_data` without an unnecessary combining step.
 
 ### Data Exploration
 
 SQL Query: [Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/02.%20Data%20Exploration.sql)
 
 Before cleaning the data, I will explore the dataset to understand its structure, identify potential inconsistencies, and assess the quality of the available information.
-
-The exploration will include checking column names, data types, total row count, missing values, duplicate records, and the range of streaming counts. I will also verify whether song identifiers are available and suitable for uniquely identifying records.
+The exploration will include checking column names, data types, total row count, missing values, and duplicate records.
 
 Observations:
 
 1. The initial exploration will document all column names and their data types to understand the information available for analysis.
-2. I will identify potential unique identifiers, such as track IDs, where available, and check for duplicate records.
-3. I will examine missing values and inconsistent formatting in key fields, including artist names, track titles, release dates, and streaming counts.
-4. I will review the distribution of streaming counts and other performance metrics to identify unusual values that may require further investigation.
+2. I will identify potential unique identifiers, such as artist names, where available, and check for duplicate records.
+3. I will examine missing values and inconsistent formatting in key fields, including artist followers, track titles, and release dates.
 
 These findings will guide the data-cleaning process and help ensure that subsequent SQL analysis and Power BI visualizations are based on reliable data.
 
 ### Data Cleaning
 SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/03.%20Data%20Cleaning.sql)
 
-1. All the rows having missing values are deleted.
-2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.
-3. Trips with duration less than a minute and longer than a day are excluded.
-4. Total 1,375,912 rows are removed in this step.
+1. Convert several columns' data type.
+2. All the rows having missing values are deleted.
+3. Total xxx rows are removed in this step.
 
 ## Analyze and Share
 
 SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)
+
 Data Visualization: Power BI
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
 
-First of all, member and casual riders are compared by the type of bikes they are using.
