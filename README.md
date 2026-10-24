@@ -1,6 +1,6 @@
 # Spotify Data Analytics: Stream Case Study
 ## Introduction
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Spotify. In order to answer the key business questions, I will follow the steps of the data analysis process: [Task](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#task), [Prepare](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#prepare), [Process](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#process), [Analyze](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study#act).
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Spotify. In order to answer the key business questions, I will follow the steps of the data analysis process: [Task](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#task), [Prepare](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#prepare), [Process](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#process), [Analyze](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study#act).
 
 ## Background
 ### Spotify
@@ -49,7 +49,7 @@ This is publicly available, third-party data that can be used to explore streami
 
 ### Data Organization
 
-There are 2 files used named Most_Streamed_Artists from source 1 and track_data_final from source 2. Each file represents artists and includes information such as its song title, genre, album, album release date, total album tracks, and total Spotify streams. Key columns include `artist_name`, `Primary_Genre`, `Artist_Type`, `sex`, `Country_of_Origin`, `Primary_Language`, `artist_followers`, `album_total_tracks`, `album_release_date`, `solo_streams_in_millions`, `Collaborative_Streams_in_millions`, and `Total_Streams_in_millions`. Additional columns contain music-related attributes. <Cite refs={["turn368619search0"]}/>
+There are 2 files used named Most_Streamed_Artists from source 1 and track_data_final from source 2. Each file represents artists and includes information such as its song title, genre, album, album release date, total album tracks, and total Spotify streams. Key columns include `artist_name`, `Primary_Genre`, `Artist_Type`, `sex`, `Country_of_Origin`, `Primary_Language`, `artist_followers`, `album_total_tracks`, `album_release_date`, `solo_streams_in_millions`, `Collaborative_Streams_in_millions`, and `Total_Streams_in_millions`. Additional columns contain music-related attributes.
 
 Before conducting the analysis, I will inspect the dataset to identify missing values, duplicate records, inconsistent data types, and formatting issues. I will also verify the definitions and completeness of the available metrics to ensure the analysis is reliable.
 
@@ -59,7 +59,7 @@ The cleaned dataset will then be used to investigate streaming performance acros
 
 ### Combining the Data
 
-SQL Query: [[Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)](#)
+SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)
 
 The Spotify dataset is imported into SQL Server as a table named `spotify_data`. If the project uses multiple CSV files covering different periods or chart categories, these files will be imported separately and combined into a single table named `combined_spotify_data`, provided that their structures are compatible.
 
