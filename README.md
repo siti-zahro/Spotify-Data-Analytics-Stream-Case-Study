@@ -59,7 +59,7 @@ The cleaned dataset will then be used to investigate streaming performance acros
 
 ### Combining the Data
 
-SQL Query: [[Data Combining](https://chatgpt.com/c/6ad90ac5-ddac-83ec-b0b1-022864835840#)](#)
+SQL Query: [[Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/commit/47670e3c80a804fe1e28f8c25384e4b5f8881c0c)](#)
 
 The Spotify dataset is imported into SQL Server as a table named `spotify_data`. If the project uses multiple CSV files covering different periods or chart categories, these files will be imported separately and combined into a single table named `combined_spotify_data`, provided that their structures are compatible.
 
@@ -67,9 +67,9 @@ The combined table will serve as the primary dataset for the analysis, allowing 
 
 If the project uses a single CSV file, the data will be imported directly into `spotify_data` without an unnecessary combining step.
 
-### [Data Exploration](https://chatgpt.com/c/6ad90ac5-ddac-83ec-b0b1-022864835840#)
+### Data Exploration
 
-SQL Query: [Data Exploration](#)
+SQL Query: [Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/commit/651ae4f63746cd0c359d999ab75026a9f170a168)
 
 Before cleaning the data, I will explore the dataset to understand its structure, identify potential inconsistencies, and assess the quality of the available information.
 
@@ -85,7 +85,7 @@ Observations:
 These findings will guide the data-cleaning process and help ensure that subsequent SQL analysis and Power BI visualizations are based on reliable data.
 
 ### Data Cleaning
-SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)
+SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/commit/b5c2dfce557aed1f6e2546da02b87aa85535c5c7)
 
 1. All the rows having missing values are deleted.
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.
@@ -94,7 +94,7 @@ SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-C
 
 ## Analyze and Share
 
-SQL Query: Data Analysis
+SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/commit/50a5ca3934cc02779bb187a1750ab62647efc6ad)
 Data Visualization: Power BI
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
