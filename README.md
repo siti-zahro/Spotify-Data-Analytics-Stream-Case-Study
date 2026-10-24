@@ -40,8 +40,8 @@ The music analytics team has assigned me the first question to answer: How does 
 
 ### Data Source
 
-I will use the publicly available *Most Streamed Artists on Spotify* dataset. The dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data).
-The data has been made available under this [License](https://creativecommons.org/licenses/by/4.0/).
+I will use the publicly available *Most Streamed Artists on Spotify* dataset. The dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data). And *Spotify Global Music Dataset (2009–2025)*, can be downloaded from [Kaggle](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025).
+The data has been made available under these [License1](https://creativecommons.org/licenses/by/4.0/) and [License2](https://creativecommons.org/publicdomain/zero/1.0/).
 
 This dataset provides a granular breakdown of streaming metrics for the world's most popular musical artists on Spotify. As of July 2026, this data encapsulates the massive reach of artists across various genres, countries, and types (Solo vs. Group).
 
@@ -49,9 +49,7 @@ This is publicly available, third-party data that can be used to explore streami
 
 ### Data Organization
 
-The dataset is provided as a CSV file containing song-level records and 29 columns. Each row represents a song and includes information such as its title, artist, album, release date, total Spotify streams, playlist performance, and selected metrics from other platforms.
-
-Key columns include `Track`, `Album Name`, `Artist`, `Release Date`, `Spotify Streams`, `Spotify Playlist Count`, `Spotify Playlist Reach`, `Spotify Popularity`, `YouTube Views`, `TikTok Views`, and `Apple Music Playlist Count`. Additional columns contain music-related attributes and cross-platform performance metrics. <Cite refs={["turn368619search0"]}/>
+There are 2 files used named Most_Streamed_Artists from source 1 and track_data_final from source 2. Each file represents artists and includes information such as its song title, genre, album, album release date, total album tracks, and total Spotify streams. Key columns include `artist_name`, `Primary_Genre`, `Artist_Type`, `sex`, `Country_of_Origin`, `Primary_Language`, `artist_followers`, `album_total_tracks`, `album_release_date`, `solo_streams_in_millions`, `Collaborative_Streams_in_millions`, and `Total_Streams_in_millions`. Additional columns contain music-related attributes. <Cite refs={["turn368619search0"]}/>
 
 Before conducting the analysis, I will inspect the dataset to identify missing values, duplicate records, inconsistent data types, and formatting issues. I will also verify the definitions and completeness of the available metrics to ensure the analysis is reliable.
 
