@@ -58,7 +58,7 @@ Before conducting the analysis, I will inspect the dataset to identify missing v
 
 The cleaned dataset will then be used to investigate streaming performance across songs and artists, examine relationships between playlist presence and streaming counts, and explore trends by release date and other available song characteristics.
 
-## Process (STILL UNDER CONSTRUCTION!)
+## Process
 ### Combining the Data
 
 SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)  
@@ -93,10 +93,10 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 2. All the rows having missing values are deleted.
 3. Total 4,307 rows are removed in this step.
 
-## Analyze and Share
+## Analyze and Share (STILL UNDER CONSTRUCTION!)
 
 SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
-Data Visualization: Power BI  
+Data Visualization: [Power BI](https://szahra.framer.website/work/stream)  
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.  
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
 
