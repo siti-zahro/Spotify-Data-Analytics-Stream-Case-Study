@@ -20,7 +20,7 @@ WITH combined_files AS(
         album_release_date,
         solo_streams_in_millions AS solo_streams,
         Collaborative_Streams_in_millions AS collab_streams,
-        Total_Streams_in_millions,                               -- float
+        Total_Streams_in_millions                                -- float
     FROM Most_Streamed_Artists AS msa
     LEFT JOIN track_data_final tdf
         ON msa.Artist_Name = tdf.artist_name
