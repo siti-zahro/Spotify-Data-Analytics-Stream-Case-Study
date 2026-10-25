@@ -93,7 +93,7 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 
 1. Convert several columns' data type.
 2. All the rows having missing values are deleted.
-3. Total xxx rows are removed in this step.
+3. Total 4,307 rows are removed in this step.
 
 ## Analyze and Share
 
@@ -102,4 +102,12 @@ SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 Data Visualization: Power BI
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
+
+Firstly, the highest streamed artists are showed in billions.
+
+<img width="497" height="352" alt="1" src="https://github.com/user-attachments/assets/91cd57b6-f796-43af-a7aa-e91136b93a95" />
+
+Next the number of album released and tracks, each artists are examined.
+
+<img width="533" height="443" alt="Screenshot 2026-08-03 183936" src="https://github.com/user-attachments/assets/fad08eb1-95e9-4a10-8ebe-2db7c1810d02" />
 
