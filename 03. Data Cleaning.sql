@@ -13,7 +13,7 @@ SELECT Artist_Name,
     TRY_CAST(album_release_date AS date) AS album_release_date,
     CAST(solo_streams AS decimal) AS solo_streams,
     CAST(collab_streams AS decimal) AS collab_streams,
-    CAST(Total_Streams_in_millions AS bigint) AS Total_Streams,
+    CAST(Total_Streams_in_millions AS bigint) AS Total_Streams
 FROM combined_files;
 
 -- delete the null rows
