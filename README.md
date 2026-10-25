@@ -37,7 +37,6 @@ Three questions will guide the music analytics project:
 The music analytics team has assigned me the first question to answer: How does streaming performance differ across artists, songs, and music genres?
 
 ## Prepare
-
 ### Data Source
 
 I will use the publicly available datasets as below. The datasets can be downloaded from Kaggle.
@@ -59,18 +58,15 @@ Before conducting the analysis, I will inspect the dataset to identify missing v
 The cleaned dataset will then be used to investigate streaming performance across songs and artists, examine relationships between playlist presence and streaming counts, and explore trends by release date and other available song characteristics.
 
 ## Process (STILL UNDER CONSTRUCTION!)
-
 ### Combining the Data
 
-SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)
-
+SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)  
 The Spotify datasets are imported into SQL Server as a table named `Most_Streamed_Artists` and `track_data_final`. Another table named "combined_files" is created, containing 4,658 rows of data for year 2009-2026, provided that their structures are compatible.
 The combined table will serve as the primary dataset for the analysis, allowing me to examine song performance, compare artists, and identify streaming trends across the available records.
 
 ### Data Exploration
 
-SQL Query: [Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/02.%20Data%20Exploration.sql)
-
+SQL Query: [Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
 Before cleaning the data, I will explore the dataset to understand its structure, identify potential inconsistencies, and assess the quality of the available information.
 The exploration will include checking column names, data types, total row count, missing values, and duplicate records.
 
@@ -98,10 +94,8 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 
 ## Analyze and Share
 
-SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)
-
-Data Visualization: Power BI
-
+SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
+Data Visualization: Power BI  
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
 
