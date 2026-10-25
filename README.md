@@ -77,12 +77,11 @@ Observations:
 
 1. The initial exploration will document all column names and their data types to understand the information available for analysis.
    <img width="379" height="252" alt="image" src="https://github.com/user-attachments/assets/388d7e17-4125-4c34-ad36-9a0a46f42b0f" />
-
 2. I will identify potential unique identifiers, such as artist names, where available, and check for duplicate records.
+
    <img width="149" height="44" alt="image" src="https://github.com/user-attachments/assets/3aecd9d5-1f8c-4281-9bbd-aa2c6fae7629" />
    <img width="344" height="46" alt="image" src="https://github.com/user-attachments/assets/4c54cf72-1fd6-4ad9-aca8-f0ef90525f05" />
-
-3. I will examine missing values and inconsistent formatting in key fields, including artist followers, track titles, and release dates.
+4. I will examine missing values and inconsistent formatting in key fields, including artist followers, track titles, and release dates.
    <img width="1099" height="42" alt="image" src="https://github.com/user-attachments/assets/81c431c8-3c79-4bc9-beee-3110ee69b211" />
 
 These findings will guide the data-cleaning process and help ensure that subsequent SQL analysis and Power BI visualizations are based on reliable data.
