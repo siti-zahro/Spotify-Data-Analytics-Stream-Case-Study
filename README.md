@@ -19,7 +19,9 @@ By analyzing historical Spotify artist and streaming data, this project seeks to
 
 ### Scenario
 
-I am assuming the role of a Junior Data Analyst working with the music analytics team at Spotify. The team wants to better understand the factors associated with song performance and identify trends that can help stakeholders make more informed decisions about music promotion and artist development. The team believes that understanding streaming performance across artists, genres, and song releases can provide valuable insights into music popularity. Therefore, my task is to analyze publicly available Spotify streaming data to identify the characteristics and trends associated with highly streamed songs. The final objective is to provide data-driven recommendations that help stakeholders understand music trends, evaluate song performance, and identify potential opportunities for artist promotion. These recommendations must be supported by clear analytical findings and professional data visualizations before being presented to the relevant stakeholders.
+I am assuming the role of a Junior Data Analyst working with the music analytics team at Spotify. The team wants to better understand the factors associated with song performance and identify trends that can help stakeholders make more informed decisions about music promotion and artist development. The team believes that understanding streaming performance across artists, genres, and song releases can provide valuable insights into music popularity.
+
+Therefore, my task is to analyze publicly available Spotify streaming data to identify the characteristics and trends associated with highly streamed songs. The final objective is to provide data-driven recommendations that help stakeholders understand music trends, evaluate song performance, and identify potential opportunities for artist promotion. These recommendations must be supported by clear analytical findings and professional data visualizations before being presented to the relevant stakeholders.
 
 ## Task
 ### Business Task
@@ -41,8 +43,7 @@ The music analytics team has assigned me the first question to answer: How does 
 
 I will use the publicly available datasets as below. The datasets can be downloaded from Kaggle.
 1. *Most Streamed Artists on Spotify*. [[Kaggle1](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data)]
-2. *Spotify Global Music Dataset (2009–2025)*. [[Kaggle2](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025)]
-
+2. *Spotify Global Music Dataset (2009–2025)*. [[Kaggle2](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025)]  
 The data has been made available under these [License1](https://creativecommons.org/licenses/by/4.0/) and [License2](https://creativecommons.org/publicdomain/zero/1.0/).
 
 This dataset provides a granular breakdown of streaming metrics for the world's most popular musical artists on Spotify. As of July 2026, this data encapsulates the massive reach of artists across various genres, countries, and types (Solo vs. Group).
@@ -61,13 +62,13 @@ The cleaned dataset will then be used to investigate streaming performance acros
 ### Combining the Data
 
 SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)  
-The Spotify datasets are imported into SQL Server as a table named `Most_Streamed_Artists` and `track_data_final`. Another table named "combined_files" is created, containing 4,658 rows of data for year 2009-2026, provided that their structures are compatible.
+The Spotify datasets are imported into SQL Server as a table named `Most_Streamed_Artists` and `track_data_final`. Another table named "combined_files" is created, containing 4,658 rows of data for year 2009-2026, provided that their structures are compatible.  
 The combined table will serve as the primary dataset for the analysis, allowing me to examine song performance, compare artists, and identify streaming trends across the available records.
 
 ### Data Exploration
 
 SQL Query: [Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
-Before cleaning the data, I will explore the dataset to understand its structure, identify potential inconsistencies, and assess the quality of the available information.
+Before cleaning the data, I will explore the dataset to understand its structure, identify potential inconsistencies, and assess the quality of the available information.  
 The exploration will include checking column names, data types, total row count, missing values, and duplicate records.
 
 Observations:
@@ -96,7 +97,7 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 
 SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
 Data Visualization: Power BI  
-The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.
+The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.  
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
 
 1. Artist Streaming Performance.
