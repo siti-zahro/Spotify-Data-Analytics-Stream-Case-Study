@@ -76,7 +76,7 @@ Observations:
 
 1. The initial exploration will document all column names and their data types to understand the information available for analysis.
 
-    <img width="379" height="252" alt="image" src="https://github.com/user-attachments/assets/388d7e17-4125-4c34-ad36-9a0a46f42b0f" />
+    <img width="254" height="252" alt="image" src="https://github.com/user-attachments/assets/d34fbad5-5690-4be5-b9f8-3cd36bb93030" />
 3. I will identify potential unique identifiers, such as artist names, where available, and check for duplicate records.
 
    <img width="149" height="44" alt="image" src="https://github.com/user-attachments/assets/3aecd9d5-1f8c-4281-9bbd-aa2c6fae7629" />
