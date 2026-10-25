@@ -63,9 +63,7 @@ The cleaned dataset will then be used to investigate streaming performance acros
 ### Combining the Data
 
 SQL Query: [Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)
-
 The Spotify datasets are imported into SQL Server as a table named `Most_Streamed_Artists` and `track_data_final`. Another table named "combined_files" is created, containing 4,658 rows of data for year 2009-2026, provided that their structures are compatible.
-
 The combined table will serve as the primary dataset for the analysis, allowing me to examine song performance, compare artists, and identify streaming trends across the available records.
 
 ### Data Exploration
@@ -78,8 +76,14 @@ The exploration will include checking column names, data types, total row count,
 Observations:
 
 1. The initial exploration will document all column names and their data types to understand the information available for analysis.
+   <img width="379" height="252" alt="image" src="https://github.com/user-attachments/assets/388d7e17-4125-4c34-ad36-9a0a46f42b0f" />
+
 2. I will identify potential unique identifiers, such as artist names, where available, and check for duplicate records.
+   <img width="149" height="44" alt="image" src="https://github.com/user-attachments/assets/3aecd9d5-1f8c-4281-9bbd-aa2c6fae7629" />
+   <img width="344" height="46" alt="image" src="https://github.com/user-attachments/assets/4c54cf72-1fd6-4ad9-aca8-f0ef90525f05" />
+
 3. I will examine missing values and inconsistent formatting in key fields, including artist followers, track titles, and release dates.
+   <img width="1099" height="42" alt="image" src="https://github.com/user-attachments/assets/81c431c8-3c79-4bc9-beee-3110ee69b211" />
 
 These findings will guide the data-cleaning process and help ensure that subsequent SQL analysis and Power BI visualizations are based on reliable data.
 
