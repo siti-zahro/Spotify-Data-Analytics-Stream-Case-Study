@@ -100,14 +100,26 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 SQL Query: [Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)
 
 Data Visualization: Power BI
+
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Power BI.
 The analysis question is: How does streaming performance differ across artists, songs, and music genres?
 
-Firstly, the highest streamed artists are showed in billions.
+1. Artist Streaming Performance
+
+I compared artists based on their total Spotify streams to identify the highest-performing artists. Streaming figures are displayed in billions to make comparisons easier to interpret and to highlight differences in streaming performance among artists.
 
 <img width="497" height="352" alt="1" src="https://github.com/user-attachments/assets/91cd57b6-f796-43af-a7aa-e91136b93a95" />
 
-Next the number of album released and tracks, each artists are examined.
+2. Album Releases and Track Volume
+
+I examined the number of album releases and total tracks associated with each artist alongside their streaming performance. This comparison helps assess whether artists with a larger music catalog also tend to achieve higher streaming numbers.
 
 <img width="533" height="443" alt="Screenshot 2026-08-03 183936" src="https://github.com/user-attachments/assets/fad08eb1-95e9-4a10-8ebe-2db7c1810d02" />
 
+3. Artist Followers and Streaming Performance
+
+I compared artist follower counts with total streams to explore the relationship between audience size and streaming performance. This helps distinguish artists with large existing audiences from those whose streaming performance may differ from their follower counts.
+
+4. Streaming Performance by Genre
+
+I compared streaming performance across music genres to identify differences in their representation and overall streaming contribution. These comparisons provide a broader view of how streaming performance varies across the music categories represented in the dataset.
