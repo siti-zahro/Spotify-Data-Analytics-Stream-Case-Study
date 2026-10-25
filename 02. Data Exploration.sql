@@ -38,7 +38,7 @@ SELECT
 FROM sys.dm_exec_describe_first_result_set(@datavar, NULL, 0)
 WHERE is_hidden = 0;
 
--- checking for unique rows
+-- checking for unique rows of artist
 
 SELECT COUNT(DISTINCT artist_name) AS unique_artist_names                                    -- return 500 rows
 FROM combined_files;
