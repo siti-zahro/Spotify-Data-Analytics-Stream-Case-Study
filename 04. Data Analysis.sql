@@ -13,7 +13,7 @@ SELECT Artist_Name,
 	album_release_date,
 	SUM(solo_streams) AS Total_solo_streams,
 	SUM(collab_streams) AS Total_collab_streams,
-	SUM(Total_Streams_in_millions) AS Total_streams
+	SUM(Total_Streams) AS Total_streams
 FROM data_cleaning
 GROUP BY Artist_Name,
 	Primary_Genre,
