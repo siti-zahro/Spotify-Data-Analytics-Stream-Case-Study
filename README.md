@@ -32,8 +32,9 @@ Analyze Spotify streaming data to identify trends in song performance, artist po
 
 Three questions will guide the music analytics project:
 
-1. How does streaming performance differ across artists, songs, and music genres?
-2. What factors are associated with higher streaming numbers, and how do song characteristics relate to streaming performance?
+1. Which artists have the highest streaming performance, and what opportunities can this create for artist promotion?
+2. How does an artist’s follower count relate to their streaming performance, and how can this insight support audience growth strategies?
+3. Which music genres show strong streaming performance, and how can music industry stakeholders use these insights to plan marketing campaigns?
 3. How can Spotify and music industry stakeholders use streaming insights to identify potential opportunities for artist promotion and audience growth?
 
 The music analytics team has assigned me the first question to answer: How does streaming performance differ across artists, songs, and music genres?
@@ -112,8 +113,30 @@ The analysis question is: How does streaming performance differ across artists, 
    <img width="687" height="616" alt="Screenshot 2026-10-28 032943" src="https://github.com/user-attachments/assets/990c6ed6-2e67-43d7-b0ce-e848f936d5be" />
 
 3. Streaming Performance by Genre.
-   I provided streaming performance across music genres to identify differences in their representation and overall streaming contribution. These information provide a broader view of how streaming performance varies across the music categories represented in the dataset.
+   I provided streaming performance across music genres to identify differences in their overall streaming contribution and to identify patterns across the categories. These information provide a broader view of how streaming performance varies across the music categories represented in the dataset.
 
    <img width="354" height="479" alt="Screenshot 2026-10-28 035023" src="https://github.com/user-attachments/assets/de4f7bd5-6cc0-4a4d-ae70-972b19db9fe7" /> <img width="586" height="374" alt="Screenshot 2026-10-28 033023" src="https://github.com/user-attachments/assets/64b170e3-023f-4972-981a-f3f4aea8f9d9" />
 
+### Key Findings
 
+The dashboard provides three main perspectives on streaming performance:
+- Artist performance: Total streams can be used to rank artists and compare their streaming performance.
+- Followers and streams: Comparing follower counts with total streams helps examine how audience size relates to streaming activity.
+- Genre performance: Comparing streaming totals across genres helps identify differences in streaming contribution between music categories.
+
+## Action
+1. Which artists have the highest streaming performance, and what opportunities can this create for artist promotion?
+   Comparing total streams helps identify top-performing artists who could be prioritized for promotional campaigns and collaborations. This can help music industry stakeholders allocate marketing resources more effectively.
+
+2. How does an artist’s follower count relate to their streaming performance, and how can this insight support audience growth strategies?
+   Comparing artist followers with total streams helps explore whether a larger audience is associated with higher streaming performance. Artists with different follower counts and streaming results may offer opportunities to improve audience engagement and reach.
+
+3. How can Spotify and music industry stakeholders use streaming insights to identify potential opportunities for artist promotion and audience growth?
+   Streaming insights let Spotify and industry stakeholders promote artists based on evidence instead of guesswork. My dashboard on Spotify data from 2009 to 2026 points to four opportunities:
+
+    - Back proven performers. Ranking artists by total streams shows who already has momentum and deserves the biggest promotion budgets.
+    - Find hidden growth. Comparing followers with streams shows artists whose listeners engage but haven’t followed yet (a conversion opportunity) and artists with large followings but weaker streams (a re-engagement need).
+    - Look beyond release volume. Testing whether more albums actually means more streams shifts the focus to release quality, timing, and marketing instead of output.
+    - Target strong genres. Genre comparisons show where listener demand is highest, guiding signing, playlist curation, and campaigns.
+
+Together, these let stakeholders allocate budgets by data, spot rising artists earlier, and grow audiences by acting on the gap between reach and engagement.
