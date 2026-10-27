@@ -1,6 +1,6 @@
 # Spotify Data Analytics: Stream Case Study
 ## Introduction
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Spotify. In order to answer the key business questions, I will follow the steps of the data analysis process: [Task](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#task), [Prepare](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#prepare), [Process](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#process), [Analyze](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/README.md#analyze-and-share).
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Spotify. In order to answer the key business questions, I will follow the steps of the data analysis process: [Task](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#task), [Prepare](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#prepare), [Process](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/edit/main/README.md#process), [Analyze](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/README.md#analyze-and-share), and [Action](https://github.com/siti-zahro/Spotify-Data-Analytics-Stream-Case-Study/blob/main/README.md#action).
 
 ## Background
 ### Spotify
@@ -120,18 +120,21 @@ The analysis question is: How does streaming performance differ across artists, 
 ### Key Findings
 
 The dashboard provides three main perspectives on streaming performance:
-- Artist performance: Total streams can be used to rank artists and compare their streaming performance.
-- Followers and streams: Comparing follower counts with total streams helps examine how audience size relates to streaming activity.
-- Genre performance: Comparing streaming totals across genres helps identify differences in streaming contribution between music categories.
+- ### Artist performance:
+  Total streams can be used to rank artists and compare their streaming performance.
+- ### Followers and streams:
+  Comparing follower counts with total streams helps examine how audience size relates to streaming activity.
+- ### Genre performance:
+  Comparing streaming totals across genres helps identify differences in streaming contribution between music categories.
 
 ## Action
-1. Which artists have the highest streaming performance, and what opportunities can this create for artist promotion?
+1. ### Which artists have the highest streaming performance, and what opportunities can this create for artist promotion?  
    Comparing total streams helps identify top-performing artists who could be prioritized for promotional campaigns and collaborations. This can help music industry stakeholders allocate marketing resources more effectively.
 
-2. How does an artist’s follower count relate to their streaming performance, and how can this insight support audience growth strategies?
+2. ### How does an artist’s follower count relate to their streaming performance, and how can this insight support audience growth strategies?  
    Comparing artist followers with total streams helps explore whether a larger audience is associated with higher streaming performance. Artists with different follower counts and streaming results may offer opportunities to improve audience engagement and reach.
 
-3. How can Spotify and music industry stakeholders use streaming insights to identify potential opportunities for artist promotion and audience growth?
+3. ### How can Spotify and music industry stakeholders use streaming insights to identify potential opportunities for artist promotion and audience growth?  
    Streaming insights let Spotify and industry stakeholders promote artists based on evidence instead of guesswork. My dashboard on Spotify data from 2009 to 2026 points to four opportunities:
 
     - Back proven performers. Ranking artists by total streams shows who already has momentum and deserves the biggest promotion budgets.
