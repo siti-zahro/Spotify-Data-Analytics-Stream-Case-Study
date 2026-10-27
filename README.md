@@ -104,21 +104,14 @@ The analysis question is: How does streaming performance differ across artists, 
 1. Artist Streaming Performance.
    I compared artists based on their total Spotify streams to identify the highest-performing artists. Streaming figures are displayed in billions to make comparisons easier to interpret and to highlight differences in streaming performance among artists.
    
-   <img width="497" height="352" alt="1" src="https://github.com/user-attachments/assets/91cd57b6-f796-43af-a7aa-e91136b93a95" />
+   <img width="584" height="415" alt="Screenshot 2026-10-28 033013" src="https://github.com/user-attachments/assets/b1ff8b12-71cd-4001-a59a-17794cf94b78" />
 
-2. Album Releases and Track Volume.
-   I examined the number of album releases and total tracks associated with each artist alongside their streaming performance. This comparison helps assess whether artists with a larger music catalog also tend to achieve higher streaming numbers.
+2. Artist Followers and Streaming Performance.
+   I compared artist follower counts with total streams to explore the relationship between audience size and streaming performance. This helps distinguish artists with large existing audiences from those whose streaming performance may differ from their follower counts.
 
-   <img width="304" height="408" alt="image" src="https://github.com/user-attachments/assets/c10e6f22-ef06-4335-8264-b75f56d87c48" /> <img width="533" height="443" alt="Screenshot 2026-08-03 183936" src="https://github.com/user-attachments/assets/fad08eb1-95e9-4a10-8ebe-2db7c1810d02" />
+   <img width="687" height="616" alt="Screenshot 2026-10-28 032943" src="https://github.com/user-attachments/assets/990c6ed6-2e67-43d7-b0ce-e848f936d5be" />
 
-3. Artist Followers and Streaming Performance.
-   I displayed the top 1 most streamed artist along with the follower counts, album released, and total streams to explore the relationship between audience size and streaming performance. This helps distinguish artists with large existing audiences from those whose streaming performance may differ from their follower counts.
+3. Streaming Performance by Genre.
+   I provided streaming performance across music genres to identify differences in their representation and overall streaming contribution. These information provide a broader view of how streaming performance varies across the music categories represented in the dataset.
 
-   <img width="253" height="205" alt="Screenshot 2026-08-03 163227" src="https://github.com/user-attachments/assets/6bc9e74a-c330-4217-9092-509989276c03" />
-   <img width="591" height="154" alt="image" src="https://github.com/user-attachments/assets/53a57d30-90f8-48b5-b830-3ca105495beb" />
-
-5. Streaming Performance by Genre.
-   I compared streaming performance across music genres to identify differences in their representation and overall streaming contribution. These comparisons provide a broader view of how streaming performance varies across the music categories represented in the dataset.
-
-   <img width="503" height="327" alt="image" src="https://github.com/user-attachments/assets/8f07450d-68b7-4b8a-832f-160b0f24d059" />
-
+   <img width="586" height="374" alt="Screenshot 2026-10-28 033023" src="https://github.com/user-attachments/assets/b3e6fc37-a123-49db-9010-73f6d9047244" />
