@@ -11,8 +11,6 @@ SELECT Artist_Name,
 	artist_followers,
 	SUM(album_total_tracks) AS Total_tracks,
 	album_release_date,
-	SUM(solo_streams) AS Total_solo_streams,
-	SUM(collab_streams) AS Total_collab_streams,
 	SUM(Total_Streams) AS Total_streams
 FROM data_cleaning
 GROUP BY Artist_Name,
@@ -35,8 +33,6 @@ SELECT Artist_Name,
 	artist_followers,
 	Total_tracks,
 	COUNT(DISTINCT album_release_date) AS Total_albums,
-	Total_solo_streams,
-	Total_collab_streams,
 	Total_streams
 FROM data_cleaning
 GROUP BY Artist_Name,
@@ -47,8 +43,6 @@ GROUP BY Artist_Name,
 	Primary_Language,
 	Total_followers,
 	Total_tracks,
-	Total_solo_streams,
-	Total_collab_streams,
 	Total_streams
 
 -- determine the highest number of followers per artists
@@ -62,8 +56,6 @@ SELECT Artist_Name,
 	MAX(artist_followers) AS Total_followers,
 	Total_tracks,
 	Total_albums,
-	Total_solo_streams,
-	Total_collab_streams,
 	Total_streams
 FROM data_cleaning
 GROUP BY Artist_Name,
@@ -74,7 +66,5 @@ GROUP BY Artist_Name,
 	Primary_Language,
 	Total_tracks,
 	Total_albums,
-	Total_solo_streams,
-	Total_collab_streams,
 	Total_streams
 
