@@ -34,7 +34,6 @@ Three questions will guide the music analytics project:
 
 1. Which artists have the highest streaming performance, and what opportunities can this create for artist promotion?
 2. How does an artist’s follower count relate to their streaming performance, and how can this insight support audience growth strategies?
-3. Which music genres show strong streaming performance, and how can music industry stakeholders use these insights to plan marketing campaigns?
 3. How can Spotify and music industry stakeholders use streaming insights to identify potential opportunities for artist promotion and audience growth?
 
 The music analytics team has assigned me the first question to answer: How does streaming performance differ across artists, songs, and music genres?
@@ -93,7 +92,7 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 
 1. Convert several columns' data type.
 2. All the rows having missing values are deleted.
-3. Total 970 rows are removed in this step.
+3. Total 4,330 rows are removed in this step.
 
 ## Analyze and Share (STILL UNDER CONSTRUCTION!)
 
