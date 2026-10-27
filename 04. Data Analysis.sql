@@ -22,7 +22,8 @@ GROUP BY Artist_Name,
 	Primary_Language,
 	artist_followers,
 	album_release_date,
-	album_type
+	album_type,
+	Total_Streams
 
 -- counting the total number of album released per artists
 
