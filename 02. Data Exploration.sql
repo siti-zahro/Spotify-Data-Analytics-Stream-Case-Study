@@ -18,8 +18,6 @@ WITH combined_files AS(
         artist_followers,                                        -- float
         album_total_tracks,
         album_release_date,
-        solo_streams_in_millions AS solo_streams,
-        Collaborative_Streams_in_millions AS collab_streams,
         Total_Streams_in_millions                                -- float
     FROM Most_Streamed_Artists AS msa
     LEFT JOIN track_data_final tdf
@@ -61,7 +59,5 @@ SELECT COUNT(*) - COUNT(artist_name) artist_name,
     COUNT(*) - COUNT(artist_followers) artist_followers,                      -- return 149 rows
     COUNT(*) - COUNT(album_total_tracks) album_total_tracks,                  -- return 149 rows
     COUNT(*) - COUNT(album_release_date) album_release_date,                  -- return 149 rows
-    COUNT(*) - COUNT(solo_streams) solo_streams,
-    COUNT(*) - COUNT(collab_streams) collab_streams,
     COUNT(*) - COUNT(Total_Streams_in_millions) Total_Streams_in_millions
 FROM combined_files;
