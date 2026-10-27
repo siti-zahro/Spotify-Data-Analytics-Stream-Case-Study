@@ -2,7 +2,7 @@
 
 -- checking total rows combined
 
-SELECT COUNT(*)                                                  -- return 3,688 rows in total
+SELECT COUNT(*)                                                  -- return 4,658 rows in total
 FROM combined_files;
 
 -- checking data type in each columns
@@ -18,6 +18,7 @@ WITH combined_files AS(
         artist_followers,                                        -- float
         album_total_tracks,
         album_release_date,
+        album_type,
         Total_Streams_in_millions                                -- float
     FROM Most_Streamed_Artists AS msa
     LEFT JOIN track_data_final tdf
@@ -41,11 +42,16 @@ WHERE is_hidden = 0;
 SELECT COUNT(DISTINCT artist_name) AS unique_artist_names                                    -- return 328 rows
 FROM combined_files;
 
+-- checking for album types
+
+SELECT DISTINCT album_type                                                                   -- return 3 types of album
+FROM combined_files;
+
 -- checking for duplicate rows 
 
-SELECT COUNT(artist_followers) - COUNT(DISTINCT artist_followers) AS duplicate_followers,    -- return 2,920 duplicate rows
-    COUNT(album_total_tracks) - COUNT(DISTINCT album_total_tracks) AS duplicate_tracks,      -- return 3,643 duplicate rows
-    COUNT(album_release_date) - COUNT(DISTINCT album_release_date) AS duplicate_released     -- return 2,911 duplicate rows
+SELECT COUNT(artist_followers) - COUNT(DISTINCT artist_followers) AS duplicate_followers,    -- return 3,616 duplicate rows
+    COUNT(album_total_tracks) - COUNT(DISTINCT album_total_tracks) AS duplicate_tracks,      -- return 4,452 duplicate rows
+    COUNT(album_release_date) - COUNT(DISTINCT album_release_date) AS duplicate_released     -- return 3,328 duplicate rows
 FROM combined_files;
 
 -- checking for number of null values in all columns
@@ -59,5 +65,6 @@ SELECT COUNT(*) - COUNT(artist_name) artist_name,
     COUNT(*) - COUNT(artist_followers) artist_followers,
     COUNT(*) - COUNT(album_total_tracks) album_total_tracks,
     COUNT(*) - COUNT(album_release_date) album_release_date,
+    COUNT(*) - COUNT(album_type) album_type,
     COUNT(*) - COUNT(Total_Streams_in_millions) Total_Streams_in_millions
 FROM combined_files;
