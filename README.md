@@ -76,14 +76,14 @@ Observations:
 
 1. The initial exploration will document all column names and their data types to understand the information available for analysis.
 
-    <img width="293" height="252" alt="image" src="https://github.com/user-attachments/assets/3fae4439-73d7-4e0a-8497-092e1ebbb15c" />
+    <img width="383" height="235" alt="Screenshot 2026-10-28 002544" src="https://github.com/user-attachments/assets/9f501105-03ee-42ce-a64e-91e12bbd11bc" />
 2. I will identify potential unique identifiers, such as artist names, where available, and check for duplicate records.
 
-   <img width="149" height="44" alt="image" src="https://github.com/user-attachments/assets/3aecd9d5-1f8c-4281-9bbd-aa2c6fae7629" />
-   <img width="344" height="46" alt="image" src="https://github.com/user-attachments/assets/4c54cf72-1fd6-4ad9-aca8-f0ef90525f05" />
+   <img width="152" height="46" alt="Screenshot 2026-10-28 002859" src="https://github.com/user-attachments/assets/61287f05-3091-4e47-a838-794b06d1429e" />
+   <img width="344" height="46" alt="checking for duplicate rows" src="https://github.com/user-attachments/assets/ad085837-c727-4d3f-bd67-acb64ded948d" />
 3. I will examine missing values and inconsistent formatting in key fields, including artist followers, track titles, and release dates.
 
-   <img width="1099" height="42" alt="image" src="https://github.com/user-attachments/assets/81c431c8-3c79-4bc9-beee-3110ee69b211" />
+   <img width="953" height="45" alt="checking for number of null values in all columns" src="https://github.com/user-attachments/assets/13fe063c-acd7-46d0-8069-347dd9cabaf1" />
 
 These findings will guide the data-cleaning process and help ensure that subsequent SQL analysis and Power BI visualizations are based on reliable data.
 
@@ -114,4 +114,6 @@ The analysis question is: How does streaming performance differ across artists, 
 3. Streaming Performance by Genre.
    I provided streaming performance across music genres to identify differences in their representation and overall streaming contribution. These information provide a broader view of how streaming performance varies across the music categories represented in the dataset.
 
-   <img width="586" height="374" alt="Screenshot 2026-10-28 033023" src="https://github.com/user-attachments/assets/b3e6fc37-a123-49db-9010-73f6d9047244" />
+   <img width="354" height="479" alt="Screenshot 2026-10-28 035023" src="https://github.com/user-attachments/assets/de4f7bd5-6cc0-4a4d-ae70-972b19db9fe7" /> <img width="586" height="374" alt="Screenshot 2026-10-28 033023" src="https://github.com/user-attachments/assets/64b170e3-023f-4972-981a-f3f4aea8f9d9" />
+
+
