@@ -12,11 +12,12 @@ WITH combined_files AS(
     artist_followers,
     album_total_tracks,
     album_release_date,
+    album_type,
     Total_Streams_in_millions
   FROM Most_Streamed_Artists AS msa
   JOIN track_data_final tdf
     ON msa.Artist_Name = tdf.artist_name
 )
 
-SELECT *                                          -- return 3,688 rows
+SELECT *                                          -- return 4,658 rows
 FROM combined_files;
