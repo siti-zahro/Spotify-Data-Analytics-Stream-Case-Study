@@ -1,6 +1,6 @@
 -- Data Analysis
 
--- counting the sum of tracks and streams according to each artists
+-- counting the sum of tracks according to each artists
 
 SELECT Artist_Name,
 	Primary_Genre,
@@ -12,7 +12,7 @@ SELECT Artist_Name,
 	SUM(album_total_tracks) AS Total_tracks,
 	album_release_date,
 	album_type,
-	SUM(Total_Streams) AS Total_streams
+	Total_Streams
 FROM data_cleaning
 GROUP BY Artist_Name,
 	Primary_Genre,
