@@ -2,7 +2,7 @@
 
 -- checking total rows combined
 
-SELECT COUNT(*)                                                  -- return 4,658 rows in total
+SELECT COUNT(*)                                                  -- return 3,688 rows in total
 FROM combined_files;
 
 -- checking data type in each columns
@@ -38,14 +38,14 @@ WHERE is_hidden = 0;
 
 -- checking for unique rows of artist
 
-SELECT COUNT(DISTINCT artist_name) AS unique_artist_names                                    -- return 500 rows
+SELECT COUNT(DISTINCT artist_name) AS unique_artist_names                                    -- return 328 rows
 FROM combined_files;
 
 -- checking for duplicate rows 
 
-SELECT COUNT(artist_followers) - COUNT(DISTINCT artist_followers) AS duplicate_followers,    -- return 3,616 duplicate rows
-    COUNT(album_total_tracks) - COUNT(DISTINCT album_total_tracks) AS duplicate_tracks,      -- return 4,452 duplicate rows
-    COUNT(album_release_date) - COUNT(DISTINCT album_release_date) AS duplicate_released     -- return 3,314 duplicate rows
+SELECT COUNT(artist_followers) - COUNT(DISTINCT artist_followers) AS duplicate_followers,    -- return 2,920 duplicate rows
+    COUNT(album_total_tracks) - COUNT(DISTINCT album_total_tracks) AS duplicate_tracks,      -- return 3,643 duplicate rows
+    COUNT(album_release_date) - COUNT(DISTINCT album_release_date) AS duplicate_released     -- return 2,911 duplicate rows
 FROM combined_files;
 
 -- checking for number of null values in all columns
@@ -56,8 +56,8 @@ SELECT COUNT(*) - COUNT(artist_name) artist_name,
     COUNT(*) - COUNT(sex) sex,
     COUNT(*) - COUNT(Country_of_Origin) Country_of_Origin,
     COUNT(*) - COUNT(Primary_Language) Primary_Language,
-    COUNT(*) - COUNT(artist_followers) artist_followers,                      -- return 149 rows
-    COUNT(*) - COUNT(album_total_tracks) album_total_tracks,                  -- return 149 rows
-    COUNT(*) - COUNT(album_release_date) album_release_date,                  -- return 149 rows
+    COUNT(*) - COUNT(artist_followers) artist_followers,
+    COUNT(*) - COUNT(album_total_tracks) album_total_tracks,
+    COUNT(*) - COUNT(album_release_date) album_release_date,
     COUNT(*) - COUNT(Total_Streams_in_millions) Total_Streams_in_millions
 FROM combined_files;
