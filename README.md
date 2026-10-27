@@ -92,7 +92,7 @@ SQL Query: [Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-S
 
 1. Convert several columns' data type.
 2. All the rows having missing values are deleted.
-3. Total 4,307 rows are removed in this step.
+3. Total 970 rows are removed in this step.
 
 ## Analyze and Share (STILL UNDER CONSTRUCTION!)
 
