@@ -1,5 +1,30 @@
 -- Data Analysis
 
+-- determine the highest number of followers per artists
+
+SELECT Artist_Name,
+	Primary_Genre,
+	Artist_Type,
+	sex,
+	Country_of_Origin,
+	Primary_Language,
+	MAX(artist_followers) AS Total_followers,
+	Total_tracks,
+	Total_albums,
+	album_type,
+	Total_streams
+FROM data_cleaning
+GROUP BY Artist_Name,
+	Primary_Genre,
+	Artist_Type,
+	sex,
+	Country_of_Origin,
+	Primary_Language,
+	Total_tracks,
+	Total_albums,
+	album_type,
+	Total_streams
+
 -- counting the sum of tracks according to each artists
 
 SELECT Artist_Name,
@@ -49,29 +74,3 @@ GROUP BY Artist_Name,
 	Total_tracks,
 	album_type,
 	Total_streams
-
--- determine the highest number of followers per artists
-
-SELECT Artist_Name,
-	Primary_Genre,
-	Artist_Type,
-	sex,
-	Country_of_Origin,
-	Primary_Language,
-	MAX(artist_followers) AS Total_followers,
-	Total_tracks,
-	Total_albums,
-	album_type,
-	Total_streams
-FROM data_cleaning
-GROUP BY Artist_Name,
-	Primary_Genre,
-	Artist_Type,
-	sex,
-	Country_of_Origin,
-	Primary_Language,
-	Total_tracks,
-	Total_albums,
-	album_type,
-	Total_streams
-
