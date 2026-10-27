@@ -18,5 +18,5 @@ WITH combined_files AS(
     ON msa.Artist_Name = tdf.artist_name
 )
 
-SELECT *                                          -- return 4,658 rows
+SELECT *                                          -- return 3,688 rows
 FROM combined_files;
