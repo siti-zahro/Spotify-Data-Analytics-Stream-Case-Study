@@ -1,6 +1,6 @@
 -- Data Cleaning
 
--- convert date type
+-- convert data type
 
 SELECT Artist_Name,
     Primary_Genre,
