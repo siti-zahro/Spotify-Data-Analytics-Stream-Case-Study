@@ -6,12 +6,12 @@ In this case study, I will perform many real-world tasks of a junior data analys
 Data Source: [Kaggle1](https://www.kaggle.com/datasets/rishavsvault/most-streamed-artists-on-spotify/data) and [Kaggle2](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025)
 
 SQL Queries:
-[01. Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)
-[02. Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/02.%20Data%20Exploration.sql)
-[03. Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/03.%20Data%20Cleaning.sql)
-[04. Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)
+[01. Data Combining](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/01.%20Data%20Combining.sql)   
+[02. Data Exploration](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/02.%20Data%20Exploration.sql)   
+[03. Data Cleaning](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/03.%20Data%20Cleaning.sql)   
+[04. Data Analysis](https://github.com/szahraZahro/Spotify-Analyze-Case-Study/blob/main/04.%20Data%20Analysis.sql)   
 
-Data Visualization: [Power BI](https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1)
+Data Visualization: [Power BI](https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1)   
 [My Website](https://szahra.framer.website/work/stream)
 
 ## Background
